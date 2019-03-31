@@ -51,6 +51,7 @@ Signal124 needs 124 characters to represent the encoded binary data in ASCII.
 ## Example of transaction
 
 > Encoded:
+
 <kbd>&nbsp;tØàù;Θf£&0ì8E(Å<br>
 J#c+§ΦèCØå<br>
 CΩÄ+'6¿£/ù</kbd>
@@ -59,6 +60,7 @@ CΩÄ+'6¿£/ù</kbd>
 - a Carriage return is a delimiter for next data
 
 > Decoded:
+
 space - encoding signal124
 
 <kbd>Hell-o World
