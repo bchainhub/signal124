@@ -63,8 +63,8 @@ CΩÄ+'6¿£/ù</kbd>
 
 space - encoding signal124
 
-<kbd>Hell-o World
-John Doe
+<kbd>Hell-o World<br>
+John Doe<br>
 signal01</kbd>
 
 ## Distributions
