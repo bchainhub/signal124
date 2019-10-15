@@ -92,7 +92,7 @@ Examples of lossless compression libraries:
 ## Developers
 
 #### Signal124
-[Rastislav](https://github.com/raisty) @ CRYPTO ■ HUB™
+Cminers
 
 ## License
 
