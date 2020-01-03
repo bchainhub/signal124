@@ -2,7 +2,7 @@ package signal124
 
 func encode(src []byte) []byte {
 	var b, n uint32 = 0, 0
-	encoded := []byte{}
+	encoded := []rune{}
 
 	for i := 0; i < len(src); i++ {
 		b |= uint32(src[i]) << n
@@ -31,8 +31,7 @@ func encode(src []byte) []byte {
 			encoded = append(encoded, enctab[b/124])
 		}
 	}
-
-	return encoded
+	return []byte(string(encoded))
 }
 
 func Encode(dst, src []byte) int {

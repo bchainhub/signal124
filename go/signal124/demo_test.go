@@ -2,6 +2,7 @@ package signal124_test
 
 import (
 	"fmt"
+
 	"github.com/cryptohub-digital/signal124/go/signal124"
 )
 
