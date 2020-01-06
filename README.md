@@ -69,7 +69,7 @@ signal01</kbd>
 
 ## Distributions
 
-* [Go](go) WIP
+* [Go](go)
 * [PHP](php)
 
 ## Project
@@ -97,4 +97,3 @@ Cminers
 ## License
 
 ⚖️ [GPL-3.0](LICENSE)
-
