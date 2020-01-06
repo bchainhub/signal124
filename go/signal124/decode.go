@@ -1,6 +1,7 @@
 package signal124
 
-func decode(src []byte) []byte {
+func decode(srcBytes []byte) []byte {
+	src := []rune(string(srcBytes))
 	var b, n uint32 = 0, 0
 	v := -1
 	decoded := []byte{}
@@ -22,7 +23,7 @@ func decode(src []byte) []byte {
 			n += 14
 		}
 		for {
-			decoded = append(decoded, uint8(b))
+			decoded = append(decoded, byte(b))
 			b >>= 8
 			n -= 8
 			if n <= 7 {
@@ -33,9 +34,8 @@ func decode(src []byte) []byte {
 	}
 
 	if v > -1 {
-		decoded = append(decoded, uint8(b|uint32(v)<<n))
+		decoded = append(decoded, byte(b|uint32(v)<<n))
 	}
-
 	return decoded
 }
 
@@ -43,6 +43,6 @@ func Decode(dst, src []byte) int {
 	return copy(dst, decode(src))
 }
 
-func DecodeString(s rune) []byte {
+func DecodeString(s string) []byte {
 	return decode([]byte(s))
 }
