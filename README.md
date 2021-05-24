@@ -96,4 +96,4 @@ Cminers
 
 ## License
 
-⚖️ [GPL-3.0](LICENSE)
+⚖️ [CORE License](LICENSE)
