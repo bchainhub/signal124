@@ -1,11 +1,11 @@
 # Signal124
 ## Binary data to GSM 7-bit transfer
 
-> Signal124 is method focusing to transfer binary data in obsolete communication with the most effective solution.
+> Signal124 is a method focusing to transfer binary data in obsolete communication in the most effective way.
 > Ideal for streaming short binary strings to the network.
-> It is effective because 124 GSM accepted chars was used instead of other Base distributions.
+> It is effective because 124 GSM accepted chars were used instead of other Base distributions.
 
-The current algorithm has been written for the most usable way for obsolete communication. For minifying data is recommended to use compressor before encoding.
+The current algorithm has been written for the most usable way for obsolete communication. For minifying data is recommended to use a compressor before encoding.
 
 
 ## Alphabet
@@ -18,7 +18,7 @@ Signal124 needs 124 characters to represent the encoded binary data in ASCII.
 | LF | a Line Feed control | excluded |
 | ESC | an Escape control | excluded |
 
-> String with special meaning:
+> Strings with special meaning:
 
 | Char | Explanation | Verdict |
 | --- | --- | --- |
@@ -74,14 +74,13 @@ signal01</kbd>
 
 ## Project
 
-This is a beta version, which is not meant for a production environment.
-The Mathematical model can be changed to get better results.
-Please, join the project to release the first stable version.
+Please, feel free to contribute to this project to improve it and integrate it into use cases.
+
 You can raise [issue](issues) or send [pull](pulls) request.
 
-## Compression 🗜️
+## Compression
 
-Consider using lossless compression before transfer and stream your data. Probably you want to achieve a compromise between fast encoding and data size.
+Consider using lossless compression before transferring and streaming your data. Probably you want to achieve a compromise between fast encoding and data size.
 
 Examples of lossless compression libraries:
 
@@ -89,11 +88,6 @@ Examples of lossless compression libraries:
 * [LZ4](https://github.com/lz4/lz4) - compression and decompression speed
 * [Snappy](https://github.com/google/snappy) - aims for very high speeds and reasonable compression
 
-## Developers
-
-#### Signal124
-Cminers
-
 ## License
 
-⚖️ [CORE License](LICENSE)
+[CORE License](LICENSE)
